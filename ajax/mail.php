@@ -29,7 +29,7 @@
 			// Auto responder to client
 			$bodyuser               = file_get_contents($url.'email_template/auto_responder.html');
 			$bodyuser			    = str_replace("{SITE_URL}", $url, $bodyuser);
-			$bodyuser			    = str_replace("{SITE_LOGO}", '<img src="'.$url.'images/logo.png border="0"/>', $bodyuser);
+			$bodyuser			    = str_replace("{SITE_LOGO}", '<img src="'.$url.'images/logo.png"border="0"/>', $bodyuser);
 			$bodyuser			    = str_replace("{SITE_NAME}", $store_name, $bodyuser);
 			$bodyuser			    = str_replace("{Name}", $_POST['name'], $bodyuser);
 			mail($_POST['email'], 'Thank you for submitting contact form', $bodyuser, $headers);
