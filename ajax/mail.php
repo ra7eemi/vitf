@@ -1,17 +1,17 @@
  <?php
  if(isset($_POST)){
 	//Site Url
-	$url = 'http://servermaintain.com/contact/';
+	$url = 'https://vitefi.com';
 	//==========================
 	//   mail to admin start  //
 	//==========================
 	//Change your site name
-	$site_name    		='Demo';
+	$site_name    		='Vitfi Khadamat';
 	//Change admin email
-	$site_email 		= 'graphicrajkumar@gmail.com';
+	$site_email 		= 'contact@vitefi.ma';
 	$body               = file_get_contents($url.'email_template/contact.html');
 	$body			    = str_replace("{SITE_URL}", $url, $body);
-	$body			    = str_replace("{SITE_LOGO}", '<img src="'.$url.'images/logo.png border="0"/>', $body);
+	$body			    = str_replace("{SITE_LOGO}", '<img src="'.$url.'images/logo.png"border="0"/>', $body);
 	$body			    = str_replace("{SITE_NAME}", $site_name, $body);
 	$body			    = str_replace("{Form}", "Contact Us", $body);
 	$body			    = str_replace("{Name}", $_POST['name'], $body);
@@ -19,7 +19,7 @@
 	$body			    = str_replace("{Phone}", $_POST['phone'], $body);
 	$body			    = str_replace("{Comments}", $_POST['message'], $body);
 	$subject = 'New Contact Form Submitted From '.$site_name;
-	$headers = "From: info@servermaintain.com\r\n";// change this with sender email
+	$headers = "From: contact@vitefi.ma\r\n";// change this with sender email
 	$headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n"; 
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
