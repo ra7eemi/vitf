@@ -400,7 +400,7 @@ h6 {
 --------------------------------------------------------------*/
 
 img {
-    max-width: 50%;
+    max-width: 70px;
     height: auto;
     padding-top: 7px;
 }
@@ -439,7 +439,7 @@ table tr th {
 }
 
 .clearfix {
-    zoom: 1;
+    zoom: 0;
 }
 
 .clearfix:before,
@@ -5841,7 +5841,6 @@ ul.service-menu .children li:last-child {
 .owl-carousel .owl-nav .owl-next,
 .owl-carousel .owl-dot {
     cursor: pointer;
-    cursor: hand;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
