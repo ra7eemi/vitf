@@ -400,9 +400,8 @@ h6 {
 --------------------------------------------------------------*/
 
 img {
-    max-width: 70px;
-    height: auto;
-    padding-top: 7px;
+    max-width: 150px;
+    padding-top: 9px;
 }
 
 input[type=text],
