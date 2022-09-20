@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>VITFI KHADAMAT</title>
     <!-- Stylesheets -->
     <!-- bootstrap v3.3.6 css -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -88,7 +88,7 @@
 
             <div class="header-main clearfix">
                 <div class="container mobile_relative">
-                    <div class="row">
+                    <div class="">
                         
                         <div class="site-logo col-md-3 col-sm-6 col-xs-6">
                             <a href="index.html" class="logo">
@@ -143,14 +143,10 @@
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
-                        <div class="tp-caption leftpadd ch_title   tp-resizeme" id="slide-4-layer-1" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['150','150','250','200']" data-fontsize="['55','50','45','25']"
-                            data-lineheight="['55','50','45','25']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":200,"speed":500,"text_c":"transparent","bg_c":"transparent","use_text_c":false,"use_bg_c":false,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"use_text_c":false,"use_bg_c":false,"text_c":"transparent","bg_c":"transparent","frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[90,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; letter-spacing: 0px;padding-left:20px;">DÉVELOPPEZ VOTRE SERVICE
-                            
-                        </div>
-                        <div class="tp-caption leftpadd ch_title   tp-resizeme" id="slide-4-layer-1" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['150','150','250','200']" data-fontsize="['55','50','45','25']"
-                            data-lineheight="['55','50','45','25']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":200,"speed":500,"text_c":"transparent","bg_c":"transparent","use_text_c":false,"use_bg_c":false,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"use_text_c":false,"use_bg_c":false,"text_c":"transparent","bg_c":"transparent","frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; letter-spacing: 0px;padding-left:20px;">EN TOUTE CONFIANCE.
+
+                        <div class="tp-caption leftpadd ch_title   tp-resizeme" id="slide-4-layer-1" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['150','150','250','200']" data-fontsize="['50','50','43','20']"
+                            data-lineheight="['55','50','45','25']"  data-responsive_offset="on" data-frames='[{"delay":200,"speed":500,"text_c":"transparent","bg_c":"transparent","use_text_c":false,"use_bg_c":false,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"use_text_c":false,"use_bg_c":false,"text_c":"transparent","bg_c":"transparent","frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            >EN TOUTE CONFIANCE.<br> <p style="color: #ff0000 !important;" >DÉVELOPPEZ VOTRE SERVICE</p>
                             
                         </div>
                         
@@ -218,7 +214,44 @@
         <!--Services sec end -->
 
         <!-- contact services -->
-
+        <section class="contactpagform graybg secpadd">
+            <div class="container">
+                <div class="fh-section-title clearfix f25 text-center version-dark paddbtm40">
+                    <h2>Leave Your Message</h2>
+                </div>
+                <p class="paddbtm40 text-center">If you have any questions about the services we provide simply use the form below. We try and respond to all
+                    <br>queries and comments within 24 hours.</p>
+                <form method="post" action="ajax/mail.php" id="contact-form" novalidate="novalidate">
+                    <div class="fh-form fh-form-3">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <p class="field">
+                                    <input name="name" placeholder="Your Name*" type="text">
+                                </p>
+                                <p class="field">
+                                    <input name="email" placeholder="Email Address*" type="email">
+                                </p>
+                                <p class="field">
+                                    <input name="phone" placeholder="Phone" type="text">
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <p class="field single-field">
+                                    <textarea name="message" cols="40" rows="10" placeholder="Your Message..."></textarea>
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <p class="field submit">
+                                    <button class="fh-btn" type="submit">Submit</button>
+                                </p>
+                            </div>
+                            <div id="loading" style="display:none"><img src="images/ajax-loader.png" alt="loading"></div>
+                            <div class="contact-form-message"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
         <!-- contact services end -->
 
         <!-- About sec-->
@@ -235,7 +268,6 @@
             </div>
         </div>
         <!--google map end-->
-
         <!--footer sec-->
         <div class="footer-widgets widgets-area">
             <div class="contact-widget">

@@ -703,6 +703,7 @@ table tr th {
 
 .fh-form-3 textarea {
     height: 210px;
+    resize: vertical;
 }
 
 .fh-form-3 p.field {
@@ -6429,6 +6430,7 @@ ul.service-menu .children li:last-child {
     opacity: 0;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .fh-icon-box.show-button:hover .desc {
@@ -8320,3 +8322,11 @@ ul.service-menu .children li:last-child {
     font-style: normal;
     margin: 0;
 }
+
+
+
+@media screen and (max-width: 620px) {
+    .tp-caption.leftpadd.ch_title.tp-resizeme {
+      width: 100%;
+    }
+  }
