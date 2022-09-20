@@ -53,12 +53,12 @@
 .fh-icon-box.version-light:hover:before,
 .services-menu-widget ul li:hover,
 .services-menu-widget ul li.current-menu-item {
-    background-color: #00baff
+    background-color: #ff0b0d
 }
 
 .ch_button:hover,
 .tp-caption.ch_button:hover {
-    background-color: #00baff !important;
+    background-color: #ff0b0d !important;
 }
 
 
@@ -93,16 +93,16 @@
 .backtotop,
 .services-menu-widget ul li:hover,
 .services-menu-widget ul li.current-menu-item {
-    border-color: #00baff
+    border-color: #ff0b0d
 }
 
 .ch_button:hover,
 .tp-caption.ch_button:hover {
-    border-color: #00baff !important;
+    border-color: #ff0b0d !important;
 }
 
 blockquote {
-    border-left-color: #00baff !important;
+    border-left-color: #ff0b0d !important;
 }
 
 
@@ -229,22 +229,22 @@ blockquote {
 .cargo-office-location-widget .topbar-office li i,
 .blog-wrapper.sticky .entry-title:before,
 .cargo-contact-widget i {
-    color: #00baff
+    color: #ff0b0d
 }
 
 .fh-accordion.style-2.vc_tta-accordion .vc_tta-panel-title a:hover,
 .fh-accordion.style-2.vc_tta-accordion .vc_tta-panel-title a:hover i,
 .fh-accordion.style-2.vc_tta-accordion .vc_tta-panel.vc_active .vc_tta-panel-title a,
 .fh-accordion.style-2.vc_tta-accordion .vc_tta-panel.vc_active .vc_tta-panel-title a i {
-    color: #00baff !important;
+    color: #ff0b0d !important;
 }
 
 .scroll-to-top {
-    border: 3px solid #00baff;
+    border: 3px solid #ff0b0d;
 }
 
 .scroll-to-top .fa {
-    color: #00baff;
+    color: #ff0b0d;
 }
 
 
@@ -281,13 +281,13 @@ blockquote {
 .nav ul.menu>li.current-menu-parent>a,
 .nav ul.menu>li.current_page_item>a,
 .nav ul.menu>li.active>a {
-    color: #00baff;
+    color: #ff0b0d;
 }
 
 .header-sticky .site-header.minimized .nav .menu>li:hover>a,
 .header-sticky .site-header.minimized .nav .menu>li.current-menu-item>a,
 .header-sticky .site-header.minimized .nav .menu>li.active>a {
-    color: #00baff;
+    color: #ff0b0d;
 }
 
 .sub-color,

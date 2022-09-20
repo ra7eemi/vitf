@@ -400,8 +400,9 @@ h6 {
 --------------------------------------------------------------*/
 
 img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
+    padding-top: 7px;
 }
 
 input[type=text],
@@ -4153,7 +4154,7 @@ p {
     border: 3px solid #ff0000;
     color: #ff0000;
     font-size: 30px;
-    background-color: #160f09;
+    background-color: #14151d;
     opacity: 0;
     -webkit-transition: 0.5s;
     transition: 0.5s;
